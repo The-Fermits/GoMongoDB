@@ -1,3 +1,21 @@
+// structure is as follows 
+/*
+04mongoDB
+│
+├── controllers/
+│   └── controller.go  # Contains all controller functions for CRUD operations
+│
+├── models/
+│   └── model.go       # Contains the Netflix struct model for the movie data
+│
+├── router/
+│   └── router.go      # Contains all route handlers
+│
+├── main.go            # Main entry point of the application to start the server
+├── go.mod             # Go modules file
+├── go.sum   
+*/
+
 package main
 
 import (
